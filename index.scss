@@ -1,0 +1,50 @@
+////importaremos los datos de materialize 
+//// ubicado en los modulos
+
+@import "node_modules/materialize-css/sass/materialize.scss";
+
+//variable no soportada para css//
+//por eso usasmos sass//
+$secondary-color:#125688;
+
+
+//copiamos todo el css antes escrito
+body {
+	background: fafafa;
+	color: #125688;
+	font-family: Montserrat;
+}
+#main-container{
+	margin: 30px auto;
+}
+.iphone{
+	max-width: 100px;
+}
+.footer{
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.login-box,
+.signup-box{
+	background-color: white;
+	border:1px solid #edeeee;
+	border-radius: 3px;
+	padding: 10px 0;
+	text-align: center;
+
+}
+.signup-box .platzigram{
+	font-family: 'oleo Script';
+	font-size: 42px;
+}
+.signup-form{
+	width: 65%;
+	margin: o auto;
+	
+}
+.signup-form h2{
+	font-size: 1.2em;
+
+	color: #a5a7aa;
+	
+}

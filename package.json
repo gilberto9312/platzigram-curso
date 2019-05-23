@@ -1,0 +1,26 @@
+{
+  "name": "platzigram",
+  "version": "0.1.0",
+  "description": "practica platzi",
+  "main": "server.js",
+  "author": "TSU Gilberto Asuaje",
+  "license": "MIT",
+  "keywords": [
+    "curso",
+    "definitivo",
+    "javascript"
+  ],
+  "dependencies": {
+    "express": "^4.16.2",
+    "materialize-css": "^0.100.2",
+    "pug": "^2.0.0-rc.4",
+    "pyg": "^1.0.0-alpha.6",
+    "yo-yo": "^1.4.1"
+  },
+  "devDependencies": {
+    "browserify": "^16.1.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}
